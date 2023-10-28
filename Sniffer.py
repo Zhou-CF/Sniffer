@@ -7,6 +7,7 @@ from functools import partial
 from scapy.all import *
 
 from UI import UI
+import images_rc
 
 
 class Sniffer(QThread):
@@ -86,9 +87,9 @@ class show_window(UI.Ui_MainWindow, QMainWindow):
 
     def initUI(self):
         # 设置开始和暂停图标
-        self.start_btn.setIcon(QIcon('start.png'))
+        self.start_btn.setIcon(QIcon(':/start.png'))
         self.start_btn.setIconSize(QSize(40, 40))
-        self.stop_btn.setIcon(QIcon('stop.png'))
+        self.stop_btn.setIcon(QIcon(':/stop.png'))
         self.stop_btn.setIconSize(QSize(40, 40))
 
         # 控制现实页面

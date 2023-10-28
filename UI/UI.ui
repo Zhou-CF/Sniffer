@@ -71,7 +71,7 @@
       </rect>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="page">
       <widget class="QScrollArea" name="scrollArea">
@@ -101,9 +101,9 @@
        <property name="geometry">
         <rect>
          <x>30</x>
-         <y>420</y>
-         <width>591</width>
-         <height>61</height>
+         <y>480</y>
+         <width>811</width>
+         <height>141</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -112,8 +112,17 @@
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>30</pointsize>
+        </font>
+       </property>
        <property name="text">
-        <string>GOOD GOOOD STUDY, DAY DAY UP!</string>
+        <string>GOOD GOOD STUDY, DAY DAY UP!</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
        </property>
       </widget>
       <widget class="QPushButton" name="select_net_Button">
